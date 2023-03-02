@@ -1,0 +1,80 @@
+/* colores */
+header {
+  padding: 16px 0;
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
+  position: fixed;
+  width: 100%;
+  z-index: 1111;
+}
+header nav {
+  width: inherit;
+}
+header .logo {
+  margin-right: 25px;
+  padding-right: 20px !important;
+}
+header .img__logo {
+  width: 128px;
+  height: 42px;
+}
+header a {
+  color: #acacac !important;
+}
+header .btn__icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+header .btn__icon .num__not {
+  position: absolute;
+  top: -25%;
+  right: -7%;
+  color: white;
+  background: #0288d3;
+  border-radius: 50%;
+  width: 20px;
+  font-size: 12px;
+  height: 20px;
+}
+header .nav-item:hover.dropdown-menu {
+  display: block !important;
+}
+
+@media screen and (max-width: 1200px) {
+  header nav {
+    width: inherit;
+  }
+  header .logo {
+    margin-right: 10px;
+    padding-right: 10px !important;
+  }
+  header .img__logo {
+    width: 100px;
+    height: 30px;
+  }
+  header a {
+    color: #acacac !important;
+  }
+  header .btn__icon {
+    width: 35px;
+    height: 35px;
+  }
+  header .btn__icon .num__not {
+    width: 15px;
+    height: 15px;
+  }
+  header .btn__icon .num__not.navbar-toggler {
+    padding: 0 !important;
+    margin-right: 10px !important;
+  }
+  header form button {
+    padding: 6px;
+  }
+  header input {
+    padding: 5px 10px !important;
+  }
+  header .nav-item:hover.dropdown-menu {
+    display: block !important;
+  }
+}/*# sourceMappingURL=Header.css.map */

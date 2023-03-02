@@ -1,0 +1,197 @@
+/* colores */
+p {
+  padding: 0;
+}
+
+.home__one {
+  padding-top: 150px;
+  /* styles benners section */
+  /* styles live bidding section */
+  /* styles create nft section */
+  /* styles explore product */
+}
+.home__one .banners .big__banner {
+  background-color: #212e48 !important;
+}
+.home__one .banners .banner .card {
+  background-color: #212e48 !important;
+}
+.home__one .banners .banner .card .img img {
+  position: inherit;
+}
+.home__one .banners .banner .card .tag__img:hover {
+  transform: scale(1.2);
+}
+.home__one .banners .banner .card .name__designer {
+  z-index: 11;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
+}
+.home__one .banners .banner .card .name__designer p {
+  color: white;
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+  line-height: 21px;
+}
+.home__one .banners .banner .card .name__designer span {
+  color: #0288d3;
+}
+.home__one .live__bidding .cards .card {
+  position: relative;
+}
+.home__one .live__bidding .cards .card:before {
+  top: auto;
+  bottom: 0;
+  border-radius: 15px;
+  background-image: linear-gradient(100deg, #13131d, #0398ed);
+  background-repeat: repeat-x;
+  transition: all 0.5s;
+  z-index: -2;
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+}
+.home__one .live__bidding .cards .card:hover:before {
+  transform: rotate(3deg) translateY(10px);
+}
+.home__one .live__bidding .countdown__timre {
+  padding-bottom: 20px;
+}
+.home__one .live__bidding .countdown__timre div {
+  color: #acacac;
+}
+.home__one .live__bidding .countdown__timre p {
+  margin: 0 !important;
+  padding: 4px 10px;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  background: rgba(33, 46, 72, 0.5411764706);
+}
+.home__one .live__bidding .img__client {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+.home__one .live__bidding .img__client:hover {
+  transform: scale(1.2) translateY(-5px);
+}
+.home__one .live__bidding .name__client {
+  top: -130%;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: 0.5s;
+  opacity: 0;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  z-index: 1111;
+}
+.home__one .live__bidding .name__client:before {
+  position: absolute;
+  left: 50%;
+  bottom: -10px;
+  z-index: -1;
+  transform-origin: center;
+  content: "";
+  transform: rotate(45deg) translateX(-50%);
+  background: #212e48;
+  border-left: 7px solid transparent;
+  border-top: 7px solid transparent;
+  border-right: 7px solid #212e48;
+  border-bottom: 7px solid #212e48;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+.home__one .live__bidding .name__img__client:hover .name__client {
+  opacity: 1;
+  transform: translateX(-50%) translateY(-10px);
+}
+.home__one .live__bidding:nth-child(2) .img__client {
+  margin-left: -10px;
+}
+.home__one .live__bidding:nth-child(3) .img__client {
+  margin-left: -20px;
+}
+.home__one .live__bidding .share p {
+  color: #acacac;
+}
+.home__one .live__bidding .menu__share {
+  margin-left: auto;
+  z-index: 111;
+}
+.home__one .live__bidding .menu__share ul {
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  transform: translateX(-100%);
+}
+.home__one .live__bidding .menu__share ul:nth-child(0) {
+  border: 2px solid white;
+}
+.home__one .live__bidding .menu__share ul li {
+  list-style: none;
+}
+.home__one .create__nft .content .card {
+  background: rgba(33, 46, 72, 0.5882352941) !important;
+}
+.home__one .create__nft .content .card:hover .content__card {
+  transform: translateY(-10px);
+  transition: 0.5s;
+}
+.home__one .create__nft .content .card .icon {
+  right: -5%;
+  top: -10%;
+}
+.home__one .create__nft .content .card .icon .img {
+  height: 85px;
+  width: 85px;
+}
+.home__one .create__nft .content .card .icon .img img {
+  -o-object-fit: fill;
+     object-fit: fill;
+  max-width: 85px;
+  max-height: 85px;
+  height: auto;
+  width: auto;
+}
+.home__one .explore__product .menu__product li {
+  padding: 10px 25px;
+  border-radius: 20px;
+  color: #acacac;
+  font-size: 14px;
+}
+.home__one .explore__product .menu__product li.active {
+  background: #212e48;
+  color: #0288d3;
+}
+
+@media screen and (min-width: 1200px) {
+  .cards .item {
+    width: 20% !important;
+  }
+}
+.tag__img:hover {
+  transform: scale(1.2);
+}
+
+.btn__carousel {
+  width: 8px !important;
+  height: 8px !important;
+  border-radius: 50% !important;
+  background: #212e48 !important;
+  border: none !important;
+  border: 2px solid #212e48 !important;
+}
+.btn__carousel.active {
+  border: 2px solid #0288d3 !important;
+  width: 8px !important;
+  height: 8px !important;
+  border-radius: 50% !important;
+}
+
+@media screen and (max-width: 830px) {
+  .home__one .banners__sm {
+    padding: 20px 0 !important;
+  }
+}/*# sourceMappingURL=HomeOne.css.map */

@@ -1,0 +1,214 @@
+ 
+ 
+ {"itemsNavLink" :  [
+        {
+        "navLink" : "Home",
+        "menuNavLink" : [
+            "Home page one ",
+            "Home page two",
+            "Home page three"
+        ]
+        },
+        {
+            "navLink" : "About",
+            "menuNavLink" : [
+                "Home page one ",
+                "Home page two",
+                "Home page three"
+            ]
+        },
+        {
+            "navLink" : "Explore",
+            "menuNavLink" : [
+                "Home page one ",
+                "Home page two",
+                "Home page three"
+            ]
+        },
+         {
+            "navLink" : "Pages",
+            "menuNavLink" : [
+                "Home page one ",
+                "Home page two",
+                "Home page three"
+            ]
+        },
+         {
+            "navLink" : "Blog",
+            "menuNavLink" : [
+                "Home page one ",
+                "Home page two",
+                "Home page three"
+            ]
+        },
+         {
+            "navLink" : "Contact",
+            "menuNavLink" : [
+                "Home page one ",
+                "Home page two",
+                "Home page three"
+            ]
+        }
+        
+    ],
+    "bannersSm" : [
+        {
+            "img" : "/assets/home/banner-sm-01.jpg",
+            "name" : "HasLivbe",
+            "designer" : "Mark Jordan"
+        },
+        {
+            "img" : "/assets/home/banner-sm-02.jpg",
+            "name" : "Ladicorn Mos",
+            "designer" : "Farik Shaik"
+        },
+        {
+            "img" : "/assets/home/banner-sm-06.jpg",
+            "name" : "Twinkle",
+            "designer" : "John Doe"
+        },
+        {
+            "img" : "/assets/home/banner-sm-04.jpg",
+            "name" : "Monster",
+            "designer" : "Olive Yew"
+        },
+        {
+            "img" : "/assets/home/banner-sm-05.jpg",
+            "name" : "Labibas Had",
+            "designer" : "Olive Yew"
+        },
+        {
+            "img" : "/assets/home/banner-sm-06.jpg",
+            "name" : "Ray Sin",
+            "designer" : "Live Bidding"
+        }
+    ],
+    "banners" : [
+        {
+            "img" : "/assets/home/banner-01.jpg",
+            "name" : "HasLivbe",
+            "designer" : "Mark Jordan"
+        },
+        {
+            "img" : "/assets/home/banner-02.jpg",
+            "name" : "Ladicorn Mos",
+            "designer" : "Farik Shaik"
+        },
+        {
+            "img" : "/assets/home/banner-03.jpg",
+            "name" : "Twinkle",
+            "designer" : "John Doe"
+        },
+        {
+            "img" : "/assets/home/banner-04.jpg",
+            "name" : "HasLivbe",
+            "designer" : "Mark Jordan"
+        }
+    ],
+    "LiveBidding" : [
+        {
+            "img" : "/assets/home/banner-01.jpg",
+            "productName" : "HasLivbe",
+            "latestBid" : "1/20",
+            "bidReact" : "0.256" ,
+             "profiles" : [
+                   "/assets/home/banner-01.jpg",
+                   "/assets/home/banner-01.jpg",
+                   "/assets/home/banner-01.jpg"
+                ],
+             "numShare" : "25",
+             "numLove" : "22",
+             "menuShare" : "false",
+             "type" : "Art"
+        },
+        {
+            "img" : "/assets/home/banner-01.jpg",
+            "productName" : "HasLivbe",
+            "latestBid" : "1/20",
+            "bidReact" : "0.256" ,
+             "profiles" : [
+                   "/assets/home/banner-01.jpg",
+                   "/assets/home/banner-01.jpg",
+                   "/assets/home/banner-01.jpg"
+                ],
+             "numShare" : "25",
+             "numLove" : "22",
+             "menuShare" : "false"
+        },
+          {
+            "img" : "/assets/home/banner-01.jpg",
+            "productName" : "HasLivbe",
+            "latestBid" : "1/20",
+            "bidReact" : "0.256" ,
+             "profiles" : [
+                   "/assets/home/banner-01.jpg",
+                   "/assets/home/banner-01.jpg",
+                   "/assets/home/banner-01.jpg"
+                ],
+             "numShare" : "25",
+             "numLove" : "22",
+             "menuShare" : "false",
+             "type" : "Art"
+        },
+          {
+            "img" : "/assets/home/banner-01.jpg",
+            "productName" : "HasLivbe",
+            "latestBid" : "1/20",
+            "bidReact" : "0.256" ,
+             "profiles" : [
+                   "/assets/home/banner-01.jpg",
+                   "/assets/home/banner-01.jpg",
+                   "/assets/home/banner-01.jpg"
+                ],
+             "numShare" : "25",
+             "numLove" : "22",
+             "menuShare" : "flase",
+             "type" : "Vedio"
+        },
+          {
+            "img" : "/assets/home/banner-01.jpg",
+            "productName" : "HasLivbe",
+            "latestBid" : "1/20",
+            "bidReact" : "0.256" ,
+             "profiles" : [
+                   "/assets/home/banner-01.jpg",
+                   "/assets/home/banner-01.jpg",
+                   "/assets/home/banner-01.jpg"
+                ],
+             "numShare" : "25",
+             "numLove" : "22",
+             "menuShare" : "false",
+             "type" : "Music"
+        }
+    ],
+    "sectionCreateNft" : [
+        {
+            "icon" : "/assets/home/shape-1.png",
+            "step": "01",
+            "title" : "Set up your wallet",
+            "text" : "A great collection of beautiful website templates for your need. Choose the best suitable template." 
+        },
+        {
+            "icon" : "/assets/home/shape-2.png",
+            "step": "02",
+            "title" : "Set up your wallet",
+            "text" : "A great collection of beautiful website templates for your need. Choose the best suitable template." 
+        },
+        {
+            "icon" : "/assets/home/shape-3.png",
+            "step": "03",
+            "title" : "Set up your wallet",
+            "text" : "A great collection of beautiful website templates for your need. Choose the best suitable template." 
+        },
+        {
+            "icon" : "/assets/home/shape-4.png",
+            "step": "04",
+            "title" : "Set up your wallet",
+            "text" : "A great collection of beautiful website templates for your need. Choose the best suitable template." 
+        }
+    ]
+
+}
+
+
+   
